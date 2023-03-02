@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - portfolio.qmd
+      - href: Resume_RaeZhang.pdf
+        text: Resume
+
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+    toc: true
+
+
+
